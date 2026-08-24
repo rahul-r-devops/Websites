@@ -26,9 +26,14 @@ export default function LegacyBlock() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h3>{block.title}</h3>
-              <p>{block.description}</p>
-              <span className="legacy-card-link">Discover More</span>
+              <div className="legacy-card-image">
+                <img src={block.image} alt={block.title} loading="lazy" />
+              </div>
+              <div className="legacy-card-body">
+                <h3>{block.title}</h3>
+                <p>{block.description}</p>
+                <span className="legacy-card-link">Discover More</span>
+              </div>
             </a>
           ))}
         </div>

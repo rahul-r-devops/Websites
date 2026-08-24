@@ -1,33 +1,32 @@
 :root {
-  /* Brand */
   --brand: #ef6448;
   --brand-rgb: 239, 100, 72;
   --brand-light: #ffcec4;
-  --brand-muted: rgba(239, 100, 72, 0.12);
+  --brand-muted: rgba(239, 100, 72, 0.1);
 
-  /* Surfaces — dark premium SaaS */
-  --bg: #0a0b10;
-  --bg-elevated: #111318;
-  --surface: #161922;
-  --surface-hover: #1c2029;
-  --border: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(255, 255, 255, 0.14);
+  --bg: #f7f6f4;
+  --bg-elevated: #ffffff;
+  --bg-elevated: #ffffff;
+  --surface: #ffffff;
+  --surface-hover: #f3f1ee;
+  --surface-hover: #f3f1ee;
+  --border: rgba(17, 17, 17, 0.08);
+  --border-strong: rgba(17, 17, 17, 0.16);
+  --border-strong: rgba(17, 17, 17, 0.16);
 
-  /* Text */
-  --text: #f4f4f5;
-  --text-secondary: #a1a1aa;
-  --text-muted: #71717a;
+  --text: #161513;
+  --text-secondary: #5c5854;
+  --text-secondary: #5c5854;
+  --text-muted: #8a8580;
+  --text-muted: #8a8580;
 
-  /* Typography */
   --font-heading: 'Sora', system-ui, sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;
 
-  /* Layout */
   --max-width: 1500px;
   --section-padding: clamp(4rem, 8vw, 7rem);
   --content-padding-inline: clamp(1rem, 4vw, 2.5rem);
 
-  /* Spacing scale (8px) */
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 0.75rem;
@@ -38,12 +37,10 @@
   --space-10: 2.5rem;
   --space-12: 3rem;
 
-  /* Motion */
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   --duration-fast: 150ms;
   --duration-normal: 250ms;
 
-  /* Radius */
   --radius-sm: 6px;
   --radius-md: 10px;
   --radius-lg: 14px;
@@ -51,7 +48,6 @@
   --radius-full: 9999px;
 }
 
-/* Global: zero hover shadows policy */
 *,
 *::before,
 *::after {

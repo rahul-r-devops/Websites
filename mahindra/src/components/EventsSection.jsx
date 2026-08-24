@@ -35,15 +35,20 @@ export default function EventsSection() {
         <div className="events-grid">
           {filtered.map((event) => (
             <article key={event.id} className="event-card">
-              <div className="event-card-top">
-                <span className="event-status">{event.status}</span>
-                <span className="event-date">{event.date}</span>
+              <div className="event-card-image">
+                <img src={event.image} alt={event.title} loading="lazy" />
+                <span className={`event-status-badge ${event.status === 'Upcoming' ? 'upcoming' : ''}`}>
+                  {event.status}
+                </span>
               </div>
-              <h3>{event.title}</h3>
-              <p>{event.description}</p>
-              <div className="event-card-footer">
-                <span className="event-tag">{event.tag}</span>
-                <span className="event-cta">{event.cta}</span>
+              <div className="event-card-body">
+                <span className="event-date">{event.date}</span>
+                <h3>{event.title}</h3>
+                <p>{event.description}</p>
+                <div className="event-card-footer">
+                  <span className="event-tag">{event.tag}</span>
+                  <span className="event-cta">{event.cta}</span>
+                </div>
               </div>
             </article>
           ))}

@@ -53,10 +53,10 @@ function SceneContent({ activeFloor, controlsRef, autoOrbit }) {
 
   return (
     <>
-      <color attach="background" args={['#0a0b10']} />
-      <fog attach="fog" args={['#0a0b10', 18, 45]} />
+      <color attach="background" args={['#f0eeea']} />
+      <fog attach="fog" args={['#f0eeea', 22, 48]} />
 
-      <ambientLight intensity={0.4} />
+      <ambientLight intensity={0.7} />
       <directionalLight
         position={[8, 12, 6]}
         intensity={1.1}
@@ -70,7 +70,7 @@ function SceneContent({ activeFloor, controlsRef, autoOrbit }) {
 
       <ContactShadows
         position={[0, 0, 0]}
-        opacity={0.4}
+        opacity={0.18}
         scale={20}
         blur={2.5}
         far={12}

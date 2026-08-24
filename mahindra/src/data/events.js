@@ -1,3 +1,5 @@
+const CDN = 'https://d9eof1pfoysfv.cloudfront.net';
+
 export const eventFilters = [
   { id: 'all', label: 'All' },
   { id: 'shopping', label: 'Shopping' },
@@ -17,6 +19,7 @@ export const events = [
     category: 'shopping',
     tag: 'Shopping Festival',
     cta: 'Event Info',
+    image: `${CDN}/Flat_50_a00a61fed0.png`,
   },
   {
     id: 'eoss-2026',
@@ -28,6 +31,7 @@ export const events = [
     category: 'shopping',
     tag: 'Fashion & Lifestyle',
     cta: 'Event Info',
+    image: `${CDN}/Web_Banner_bf028e9ecb.png`,
   },
   {
     id: 'freedom-sale',
@@ -39,6 +43,7 @@ export const events = [
     category: 'shopping',
     tag: 'Seasonal Sale',
     cta: 'Discover More',
+    image: `${CDN}/events_banner_33aa0f362b.jpg`,
   },
   {
     id: 'end-of-season',
@@ -50,6 +55,7 @@ export const events = [
     category: 'shopping',
     tag: 'Shopping',
     cta: 'Discover More',
+    image: `${CDN}/Web_Banner_bf028e9ecb.png`,
   },
   {
     id: 'her-day',
@@ -61,6 +67,7 @@ export const events = [
     category: 'wellness',
     tag: 'Community & Wellness',
     cta: 'Event Info',
+    image: `${CDN}/womens_49a869f4bc.jpg`,
   },
   {
     id: 'monsoon-food',
@@ -72,6 +79,7 @@ export const events = [
     category: 'food',
     tag: 'Dining & Gourmet',
     cta: 'Event Info',
+    image: `${CDN}/card_3_20da899394.jpg`,
   },
   {
     id: 'yoga-day',
@@ -83,6 +91,7 @@ export const events = [
     category: 'wellness',
     tag: 'Health & Fitness',
     cta: 'Event Info',
+    image: `${CDN}/Adobe_Stock_1555314080_2e583f8ebf.jpeg`,
   },
   {
     id: 'kids-fest',
@@ -94,6 +103,7 @@ export const events = [
     category: 'kids',
     tag: 'Kids & Family',
     cta: 'Event Info',
+    image: `${CDN}/kidss_fb0815b80c.jpg`,
   },
   {
     id: 'tambola',
@@ -105,6 +115,7 @@ export const events = [
     category: 'kids',
     tag: 'Entertainment',
     cta: 'Event Info',
+    image: `${CDN}/image_7_793f4e56a1.jpg`,
   },
   {
     id: 'valentine',
@@ -116,6 +127,7 @@ export const events = [
     category: 'food',
     tag: 'Music & Concert',
     cta: 'Event Info',
+    image: `${CDN}/card_4_47de2a1017.jpg`,
   },
   {
     id: 'mega-raffle',
@@ -127,5 +139,6 @@ export const events = [
     category: 'shopping',
     tag: 'Rewards & Shopping',
     cta: 'Event Info',
+    image: `${CDN}/Retail_Card_img2_1_1644cbbc9e.jpg`,
   },
 ];

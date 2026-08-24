@@ -4,8 +4,8 @@ import { Text, RoundedBox } from '@react-three/drei';
 import * as THREE from 'three';
 
 const BRAND = '#ef6448';
-const GLASS = '#1a2332';
-const CONCRETE = '#2a2f3a';
+const GLASS = '#c5d4e0';
+const CONCRETE = '#d8d4ce';
 
 function WindowGrid({ width, height, floors, depth = 0.05, simplified }) {
   const cols = simplified ? Math.floor(width / 1.8) : Math.floor(width / 1.2);
@@ -165,7 +165,7 @@ export default function MallBuilding({ activeFloor, simplified = false }) {
     <group ref={groupRef}>
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.01, 2]} receiveShadow>
         <planeGeometry args={[40, 40]} />
-        <meshStandardMaterial color="#141820" roughness={0.95} />
+        <meshStandardMaterial color="#e8e4de" roughness={0.95} />
       </mesh>
 
       <mesh position={[0, buildingHeight / 2, 0]} castShadow receiveShadow>
@@ -189,7 +189,7 @@ export default function MallBuilding({ activeFloor, simplified = false }) {
           y={fl.y}
           width={10}
           depth={6}
-          color={activeFloor === fl.id ? '#3a4049' : CONCRETE}
+          color={activeFloor === fl.id ? '#cfc8bf' : CONCRETE}
         />
       ))}
 

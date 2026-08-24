@@ -14,12 +14,17 @@ export default function AmenitiesSection() {
         <div className="amenities-grid">
           {amenities.map((item) => (
             <article key={item.id} className="amenity-card">
-              <div className="amenity-card-header">
-                <h3>{item.title}</h3>
-                <span className="amenity-service-num">SERVICE #{item.id}</span>
+              <div className="amenity-icon-wrap">
+                <img src={item.icon} alt="" loading="lazy" />
               </div>
-              <p>{item.description}</p>
-              <span className="amenity-price">{item.price}</span>
+              <div className="amenity-card-content">
+                <div className="amenity-card-header">
+                  <h3>{item.title}</h3>
+                  <span className="amenity-service-num">#{item.id}</span>
+                </div>
+                <p>{item.description}</p>
+                <span className="amenity-price">{item.price}</span>
+              </div>
             </article>
           ))}
         </div>

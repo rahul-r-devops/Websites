@@ -1,0 +1,1728 @@
+{
+  "floors": [
+    {
+      "id": "lgf",
+      "mapplicId": "layer2",
+      "name": "Lower Ground Floor",
+      "file": "/floor-maps/lgf.svg",
+      "source": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FLower%20Ground%20Floor3d-03.svg?alt=media&token=73f00863-b661-42f8-9cb7-2b2462750e0a"
+    },
+    {
+      "id": "ugf",
+      "mapplicId": "layer1",
+      "name": "Upper Ground Floor",
+      "file": "/floor-maps/ugf.svg",
+      "source": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FM5%20Mall%20map%20-%20Ground%20Floor.svg?alt=media&token=fe852d8c-7466-4699-b857-787b1c050363"
+    },
+    {
+      "id": "1f",
+      "mapplicId": "layer6",
+      "name": "First Floor",
+      "file": "/floor-maps/1f.svg",
+      "source": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FFirst%20Floor.svg?alt=media&token=e6edd65b-7abc-4140-96eb-90a22dcf1bd1"
+    },
+    {
+      "id": "2f",
+      "mapplicId": "layer3",
+      "name": "Second Floor",
+      "file": "/floor-maps/2f.svg",
+      "source": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FSecond%20Floor.svg?alt=media&token=4a3a47a8-5f9f-4c70-85f4-fefe769de206"
+    },
+    {
+      "id": "3f",
+      "mapplicId": "layer4",
+      "name": "Third Floor",
+      "file": "/floor-maps/3f.svg",
+      "source": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FThird%20Floor.svg?alt=media&token=3c618845-3c34-484e-be44-04b4a36a610d"
+    },
+    {
+      "id": "4f",
+      "mapplicId": "layer5",
+      "name": "Fourth Floor",
+      "file": "/floor-maps/4f.svg",
+      "source": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FFourth%20Floor.svg?alt=media&token=01f3c38b-9238-4bc0-8d4f-20fb7b399f18"
+    }
+  ],
+  "stores": [
+    {
+      "id": "store-1",
+      "name": "Popeyes",
+      "floor": "4F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A globally loved QSR brand offering Louisiana-style fried chicken with bold spices and distinctive flavour profiles.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F3rd_Floor_logos_6.jpg?alt=media&token=14d2dffd-5b5e-4e30-a15b-18f387460629"
+    },
+    {
+      "id": "store-2",
+      "name": "SF038",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "",
+      "image": ""
+    },
+    {
+      "id": "store-3",
+      "name": "SF037",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "",
+      "image": ""
+    },
+    {
+      "id": "store-4",
+      "name": "Dilkhush",
+      "floor": "LGF",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "A popular quick-bite destination offering flavorful snacks and bakery-style treats crafted for satisfying cravings on the go.",
+      "image": ""
+    },
+    {
+      "id": "store-5",
+      "name": "JST Popcorn",
+      "floor": "LGF",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "A snack brand offering freshly prepared popcorn in a variety of flavours, delivering quick and enjoyable treats for all age groups.",
+      "image": ""
+    },
+    {
+      "id": "store-6",
+      "name": "Arch Gallery",
+      "floor": "LGF",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "A mobile accessories store offering a wide range of gadgets, cases, and essentials designed for protection and everyday convenience",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FLGF_Logos_1_1.jpg?alt=media&token=d0a9df79-90bf-4bac-b853-899e1bdb9d06"
+    },
+    {
+      "id": "store-7",
+      "name": "Churoland",
+      "floor": "4F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A dessert caf\u00e9 offering freshly made churros, sweet treats, and indulgent beverages designed for delightful snacking experiences.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2Fchuroland.jpg?alt=media&token=6e9a65b9-a6f4-4884-918f-85d1dffdbeb2"
+    },
+    {
+      "id": "store-8",
+      "name": "Mela Panipuri",
+      "floor": "4F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A street-food-inspired destination offering flavorful pani puri and Indian chaat favourites crafted with authentic taste and freshness.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2Fmela-panipuri.jpg?alt=media&token=58399ce0-8a16-4929-aba4-3099014872bd"
+    },
+    {
+      "id": "store-9",
+      "name": "Rolls Mania",
+      "floor": "4F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A popular quick-service food brand offering delicious rolls, wraps, and flavorful snacks crafted for fast, satisfying meals on the go.",
+      "image": ""
+    },
+    {
+      "id": "store-10",
+      "name": "Ff032",
+      "floor": "4F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "",
+      "image": ""
+    },
+    {
+      "id": "store-11",
+      "name": "Delicious Munchies",
+      "floor": "4F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A casual snack destination offering tasty quick bites, beverages, and comfort food designed for satisfying everyday cravings.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2Fmunchies.jpg?alt=media&token=066c5164-6e17-4f5e-84e9-ecca9b514326"
+    },
+    {
+      "id": "store-12",
+      "name": "Hoshino",
+      "floor": "4F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A contemporary dining destination offering Asian-inspired cuisine with elegant flavours, modern presentation, and a refined ambience.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FHosingo%20Final%20Logo.jpg?alt=media&token=93444358-5eb0-4839-9aba-a38de900bea4"
+    },
+    {
+      "id": "store-13",
+      "name": "Big Dog",
+      "floor": "4F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A quick-service food outlet specializing in gourmet hot dogs and loaded snacks crafted with bold flavours and creative combinations.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2Fbig-dog.jpg?alt=media&token=be6343ec-feb8-492e-a436-6f370b3d3c70"
+    },
+    {
+      "id": "store-14",
+      "name": "RR Relax Chair",
+      "floor": "3F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer4",
+      "desc": "A wellness destination offering advanced massage chairs designed for relaxation, stress relief, and everyday rejuvenation.",
+      "image": ""
+    },
+    {
+      "id": "store-15",
+      "name": "Hoppin",
+      "floor": "3F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer4",
+      "desc": "A vibrant entertainment and activity brand offering engaging experiences designed for fun, recreation, and social interaction.",
+      "image": ""
+    },
+    {
+      "id": "store-16",
+      "name": "TF010",
+      "floor": "3F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer4",
+      "desc": "",
+      "image": ""
+    },
+    {
+      "id": "store-17",
+      "name": "Bombay Kulfi",
+      "floor": "3F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer4",
+      "desc": "A dessert destination offering authentic kulfis and Indian frozen treats inspired by traditional flavors and rich textures.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2Fbombay-kulfi.jpg?alt=media&token=0a79fe2a-552b-4724-8fb2-759ecc1cff8e"
+    },
+    {
+      "id": "store-18",
+      "name": "Nisargika",
+      "floor": "3F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer4",
+      "desc": "A wellness-focused brand offering natural and herbal products designed to promote healthy living and holistic self-care.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2Fnaisargika.jpg?alt=media&token=1335e051-5a9c-4c55-951f-6c7bfc4d3267"
+    },
+    {
+      "id": "store-19",
+      "name": "SF036",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "",
+      "image": ""
+    },
+    {
+      "id": "store-20",
+      "name": "SF035",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "",
+      "image": ""
+    },
+    {
+      "id": "store-21",
+      "name": "SF034",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "",
+      "image": ""
+    },
+    {
+      "id": "store-22",
+      "name": "Turbo Shack",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "A quick-bite food outlet offering flavorful fast food and refreshing beverages designed for casual dining and instant cravings.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2Fturbo-shack.jpg?alt=media&token=28188755-e62b-4b6c-ab3e-abaa588ab031"
+    },
+    {
+      "id": "store-23",
+      "name": "Mobile Outfitters",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "A specialty tech store offering premium device protection solutions, screen guards, and accessories for modern gadgets.",
+      "image": ""
+    },
+    {
+      "id": "store-24",
+      "name": "GO Ethnic",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "An ethnic fashion and jewellery destination offering traditional designs crafted for festive and cultural styling needs.",
+      "image": ""
+    },
+    {
+      "id": "store-25",
+      "name": "SF029",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "",
+      "image": ""
+    },
+    {
+      "id": "store-26",
+      "name": "Craft Lane",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "A handcrafted lifestyle store offering unique d\u00e9cor, artisanal products, and creative gifting options with a contemporary touch.",
+      "image": ""
+    },
+    {
+      "id": "store-27",
+      "name": "Svastik",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "A silver jewellery destination offering intricately crafted designs that blend traditional artistry with contemporary elegance.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FSvastik.jpg?alt=media&token=588c6561-c52d-4a20-86bc-3a7e127820fa"
+    },
+    {
+      "id": "store-28",
+      "name": "Wildstone",
+      "floor": "1F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A men\u2019s grooming and fragrance brand offering perfumes and personal care products crafted for confidence and lasting freshness.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUntitled-1.jpg?alt=media&token=3a89781c-431a-410e-a108-ebdf90320a6d"
+    },
+    {
+      "id": "store-29",
+      "name": "F1f026",
+      "floor": "1F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "",
+      "image": ""
+    },
+    {
+      "id": "store-30",
+      "name": "F1f027",
+      "floor": "1F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "",
+      "image": ""
+    },
+    {
+      "id": "store-31",
+      "name": "Mac V (Sunglass Atelier)",
+      "floor": "1F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A premium eyewear boutique offering stylish sunglasses and frames designed with modern aesthetics and everyday comfort.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2Fmac-v.jpg?alt=media&token=209bedd7-a3bc-40b4-b4ae-ea67fdc81bca"
+    },
+    {
+      "id": "store-32",
+      "name": "Express Zone",
+      "floor": "1F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "An entertainment and activity zone offering engaging gaming experiences and fun-filled attractions for visitors of all ages.",
+      "image": ""
+    },
+    {
+      "id": "store-33",
+      "name": "F1f032",
+      "floor": "1F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "",
+      "image": ""
+    },
+    {
+      "id": "store-34",
+      "name": "F1f033",
+      "floor": "1F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "",
+      "image": ""
+    },
+    {
+      "id": "store-35",
+      "name": "Coopin",
+      "floor": "LGF",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "A dessert destination offering ice creams, sundaes, and refreshing treats crafted for quick indulgence and sweet cravings.",
+      "image": ""
+    },
+    {
+      "id": "store-36",
+      "name": "Fastrack",
+      "floor": "1F",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A youth-centric accessories brand offering trendy watches and eyewear designed for bold and expressive lifestyles.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_8.jpg?alt=media&token=b85953d0-b65e-46c6-8bcf-8226c14cdc68"
+    },
+    {
+      "id": "store-37",
+      "name": "Titan World",
+      "floor": "1F",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A premium watch destination offering elegant timepieces that combine precision, craftsmanship, and design.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FMall_Logos_New_6.jpg?alt=media&token=a324cbdc-bc50-41c4-89b7-5b837d7f7b0d"
+    },
+    {
+      "id": "store-38",
+      "name": "Metro Shoes",
+      "floor": "1F",
+      "category": "footwear",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A trusted footwear retailer offering stylish and comfortable options for all occasions.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_15.jpg?alt=media&token=42411158-9dc9-4c8f-b7d1-0f309fc97838"
+    },
+    {
+      "id": "store-39",
+      "name": "Crocs",
+      "floor": "1F",
+      "category": "footwear",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A globally recognised footwear brand offering lightweight, comfortable designs for everyday wear.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_5.jpg?alt=media&token=e419a3a4-71e4-4a8b-a6e1-e1bc2b8f871e"
+    },
+    {
+      "id": "store-40",
+      "name": "Ethnix by Raymond",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_7.jpg?alt=media&token=cfb88ab4-8051-40ef-9782-2727800f36c5"
+    },
+    {
+      "id": "store-41",
+      "name": "Hush Puppies",
+      "floor": "1F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A global footwear brand offering stylish and comfortable shoes designed for everyday ease and durability.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_12.jpg?alt=media&token=252a010b-450c-40bf-8714-13c9e2695901"
+    },
+    {
+      "id": "store-42",
+      "name": "Miniso",
+      "floor": "1F",
+      "category": "supermarket-groceries",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A Japanese-inspired lifestyle brand offering affordable home, beauty, and everyday essentials.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_16.jpg?alt=media&token=76014fed-beb9-4338-a131-240149965be4"
+    },
+    {
+      "id": "store-43",
+      "name": "GKB Opticals",
+      "floor": "1F",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_11.jpg?alt=media&token=e32c472f-9671-4425-94f4-283effb6935b"
+    },
+    {
+      "id": "store-44",
+      "name": "Kingdom of white",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A niche menswear brand specializing in all-white fashion, offering clean, minimal designs with timeless elegance.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_14.jpg?alt=media&token=ff98e053-fc2c-4244-b4da-898d6b5978e1"
+    },
+    {
+      "id": "store-45",
+      "name": "Jockey",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A trusted innerwear and athleisure brand offering comfort-focused essentials designed for everyday wear and active lifestyles.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_13.jpg?alt=media&token=1045764b-1a84-47a1-9ed4-9985e60e494e"
+    },
+    {
+      "id": "store-46",
+      "name": "The [Pant] Project",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A modern menswear brand specializing in custom-fit trousers crafted for precision, comfort, and contemporary everyday styling.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_18.jpg?alt=media&token=e4fd4a5b-9655-4ba2-bfd6-67fa804bf9d1"
+    },
+    {
+      "id": "store-47",
+      "name": "Lifestyle",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": true,
+      "layer": "layer6",
+      "desc": "<div>A multi-brand retail store offering fashion, beauty, and accessories for a complete shopping experience.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F179a04f941055a40862e76746879c5bf.jpg?alt=media&token=3351695b-ce99-4476-87ec-2f01e395b0cb"
+    },
+    {
+      "id": "store-48",
+      "name": "Speedo",
+      "floor": "1F",
+      "category": "footwear",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A leading swimwear brand offering high-performance apparel and accessories designed for comfort, durability, and active lifestyles.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_20.jpg?alt=media&token=1062fa2b-df10-47ae-85eb-598287fb3751"
+    },
+    {
+      "id": "store-49",
+      "name": "Espanshe",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A refined menswear label offering well-tailored styles designed for modern professionals and sophisticated everyday dressing.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_6.jpg?alt=media&token=6ed1bf41-fbbf-4011-9bb5-8e3a5051681b"
+    },
+    {
+      "id": "store-50",
+      "name": "Bata",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A globally trusted footwear brand offering durable, comfortable, and stylish designs suited for everyday use.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_2.jpg?alt=media&token=7f28ee98-b717-446f-a340-761edbf033ad"
+    },
+    {
+      "id": "store-51",
+      "name": "R & B",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A value fashion brand offering trendy apparel and accessories designed for affordable, everyday style and youthful appeal.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FR%26B%20-%201st%20Floor.png?alt=media&token=9fad64bf-b257-4215-87f7-7ecb72459639"
+    },
+    {
+      "id": "store-52",
+      "name": "Joker & Witch",
+      "floor": "1F",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A fashion accessories brand offering trendy jewellery and watches designed for bold, playful, and expressive styling.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FJocker%20and%20Witch%20-%201st%20floor.jpg?alt=media&token=6cc02d17-d358-4b24-a9b4-dfc4a3d88ccd"
+    },
+    {
+      "id": "store-53",
+      "name": "Arrow",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A premium menswear brand known for formal shirts and tailored styles designed for professional and refined dressing.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FMall_Logos_New_1.jpg?alt=media&token=8a68d273-a8b7-489d-874c-c97a6fe0a4fb"
+    },
+    {
+      "id": "store-54",
+      "name": "American Tourister",
+      "floor": "1F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A global luggage brand offering durable and stylish travel solutions designed for convenience and modern travel needs.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FBrand_Logos_B%26A_2.jpg?alt=media&token=9920224e-4c80-4902-822b-2680aac7becd"
+    },
+    {
+      "id": "store-55",
+      "name": "Flying Machine",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A youth-focused denim brand offering casual wear designed for individuality, comfort, and contemporary street style.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_10.jpg?alt=media&token=3f4a2fe1-61bf-44b1-b06d-2a4681dc3093"
+    },
+    {
+      "id": "store-56",
+      "name": "Park Avenue",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A sophisticated menswear brand offering formal apparel and grooming products for modern professional lifestyles.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_19.jpg?alt=media&token=5dfac0fd-8601-4e81-a14c-84fbf4fdb53b"
+    },
+    {
+      "id": "store-57",
+      "name": "Titan Eye+",
+      "floor": "1F",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_22.jpg?alt=media&token=d7de9a6d-cadf-4448-8117-a7c879b4b276"
+    },
+    {
+      "id": "store-58",
+      "name": "Monte Carlo",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A premium apparel brand offering knitwear and casual fashion designed for comfort, warmth, and timeless appeal.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F1st_Floor_logos_17.jpg?alt=media&token=2e429fe2-b450-4c12-9509-4bc840ceea66"
+    },
+    {
+      "id": "store-59",
+      "name": "Parx",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A contemporary menswear brand offering smart casual apparel designed for modern lifestyles and effortless everyday styling.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2Fparx.jpg?alt=media&token=4dfc7596-a42a-4ce6-b858-25c17c186e52"
+    },
+    {
+      "id": "store-60",
+      "name": "Max",
+      "floor": "1F",
+      "category": "mens-fashion",
+      "anchor": true,
+      "layer": "layer6",
+      "desc": "A value-driven fashion destination offering stylish apparel for men, women, and kids at affordable prices.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FMall_Logos_New_4.jpg?alt=media&token=cc2750a1-dc2f-4acc-bc45-9d1f933ded76"
+    },
+    {
+      "id": "store-61",
+      "name": "Chaayos",
+      "floor": "1F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer6",
+      "desc": "A modern tea caf\u00e9 offering customized chai, snacks, and comfort beverages in a relaxed and welcoming setting.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FBrand_Logos_R%26C_5.jpg?alt=media&token=61b4d7b1-2bb9-49d3-a105-290d75085fb3"
+    },
+    {
+      "id": "store-62",
+      "name": "Nagas",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>A regional dining destination offering authentic South Indian flavours with a focus on rich spices and traditional cooking styles.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FBrand_Logos_F%26B_16.jpg?alt=media&token=21886afe-ded6-4ca8-897d-e62ba4e4702e"
+    },
+    {
+      "id": "store-63",
+      "name": "Subway",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>A fresh food destination offering customizable sandwiches and healthier meal options with a variety of ingredients and choices.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_17.jpg?alt=media&token=b6c4a975-e4c0-4233-a725-3e3d4fe0a54a"
+    },
+    {
+      "id": "store-64",
+      "name": "Chicking",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>An international QSR brand known for crispy fried chicken, wraps, and flavour-packed meals with a unique Middle Eastern touch.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_5.jpg?alt=media&token=c03d9984-0cb3-4c0c-a068-7d5831df6c33"
+    },
+    {
+      "id": "store-65",
+      "name": "Pizza Hut",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>A globally recognized pizza brand offering classic and innovative pizzas with a comfortable dine-in experience and consistent quality.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_12.jpg?alt=media&token=d0a42b38-7d1a-4f2d-9ccf-9738151c964c"
+    },
+    {
+      "id": "store-66",
+      "name": "Burger King",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>A global fast-food destination known for flame-grilled burgers, bold flavours, and satisfying meals in a vibrant environment.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_3.jpg?alt=media&token=0ba62970-611c-415f-a6d0-392ddc827640"
+    },
+    {
+      "id": "store-67",
+      "name": "Baskin Robbins",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>A globally loved ice cream brand offering a wide variety of flavours, sundaes, and desserts for refreshing indulgence.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_1.jpg?alt=media&token=a1625cfc-c647-438c-9f8e-ca69dcbbf420"
+    },
+    {
+      "id": "store-68",
+      "name": "Copper Chimney",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>A premium restaurant known for rich North Indian cuisine, signature gravies, and a refined dining experience.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_4.jpg?alt=media&token=8197c557-d78a-4589-9e5a-a6b5eb8083a0"
+    },
+    {
+      "id": "store-70",
+      "name": "Kairuchi",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A specialty restaurant offering authentic coastal cuisine with rich flavours, traditional recipes, and a focus on regional taste.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_10.jpg?alt=media&token=37bc4c26-caf6-4430-97ca-061dec973d4f"
+    },
+    {
+      "id": "store-71",
+      "name": "GO PIZZA",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A modern pizza brand offering personal-sized pizzas with innovative flavours, quick service, and a fresh, customizable approach.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_8.jpg?alt=media&token=805e9897-3dbd-4799-ad33-1ed8a037e55f"
+    },
+    {
+      "id": "store-72",
+      "name": "Samosa Singh",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>A popular snack brand offering hygienic, flavourful samosas and Indian street-style bites with a modern twist.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_13.jpg?alt=media&token=e23440ed-fb41-467a-b607-0e4aaf107fc9"
+    },
+    {
+      "id": "store-73",
+      "name": "Smooth Gelato",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>A dessert brand offering handcrafted gelato made with premium ingredients, delivering rich flavours and a refined indulgent experience.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_15.jpg?alt=media&token=7bc09f6a-e2e0-494e-80ed-6cd8bc677107"
+    },
+    {
+      "id": "store-74",
+      "name": "Chai Bliss",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A modern tea caf\u00e9 offering handcrafted chai, snacks, and comfort beverages in a cozy setting for relaxed conversations.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FBrand_Logos_F%26B_5.jpg?alt=media&token=09f53811-093f-4585-a4b3-4e4fe5b17ec6"
+    },
+    {
+      "id": "store-75",
+      "name": "Squeeze Juice Bars",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>A refreshing beverage brand offering fresh juices, smoothies, and healthy drinks designed for energy, wellness, and quick refreshment.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_16.jpg?alt=media&token=ace9afd7-4a07-4937-83d1-80f3bc9bb5c9"
+    },
+    {
+      "id": "store-76",
+      "name": "Waffle",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A dessert spot offering freshly made waffles with indulgent toppings, delivering quick, sweet treats for every craving.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_7.jpg?alt=media&token=21cc6b70-eb20-4734-9299-23ca6cc6f370"
+    },
+    {
+      "id": "store-77",
+      "name": "Purani Delhi",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>A traditional food destination serving authentic North Indian and Mughlai flavours inspired by the rich culinary heritage of Old Delhi.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FBrand_Logos_F%26B_18.jpg?alt=media&token=3929bddd-f1a1-418f-90f8-760ebdf05e70"
+    },
+    {
+      "id": "store-78",
+      "name": "Biggies Burger",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A homegrown burger brand offering juicy, flavour-packed burgers and quick bites crafted for indulgent and satisfying meals.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FBrand_Logos_F%26B_3.jpg?alt=media&token=75c3b392-0aaf-4338-89af-d07b612e9c2d"
+    },
+    {
+      "id": "store-79",
+      "name": "Rajdhani",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>A traditional dining destination offering authentic Rajasthani and Gujarati thali experiences with rich flavours and cultural authenticity.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2Frajdhani.jpg?alt=media&token=cad32539-9c56-49b0-be91-380c374765ec"
+    },
+    {
+      "id": "store-80",
+      "name": "Hottey Smokey",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A casual dining concept offering smoky grills and sizzling dishes, delivering bold flavours and hearty meals in a lively setting.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_9.jpg?alt=media&token=a9e4a14f-0a46-4b4f-be88-1b7bb4ed1a01"
+    },
+    {
+      "id": "store-81",
+      "name": "Hoy Momo",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A fast-growing food brand offering delicious momos, Asian snacks, and street-style favourites crafted for quick, flavourful bites.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FBrand_Logos_F%26B_11.jpg?alt=media&token=e90b08e2-8135-4ad0-9a92-58e5ce78d150"
+    },
+    {
+      "id": "store-82",
+      "name": "Taco Bell",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>A global QSR brand offering Mexican-inspired favourites with bold flavours, innovative menu options, and a vibrant, youthful dining experience.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_18.jpg?alt=media&token=bf74ff5f-3ec7-4feb-9171-327cafa8ce8a"
+    },
+    {
+      "id": "store-83",
+      "name": "KFC",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "<div>A globally loved brand known for its signature fried chicken, bold spices, and consistently satisfying quick-service meals.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_11.jpg?alt=media&token=bcd354d6-e3b4-454c-8d1e-a4dcc7b8e60d"
+    },
+    {
+      "id": "store-85",
+      "name": "Shanghai Times",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A casual dining restaurant offering Chinese cuisine with a blend of traditional flavours and modern presentation.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_14.jpg?alt=media&token=30c0ab37-e56f-4b11-9322-805687bbf622"
+    },
+    {
+      "id": "store-86",
+      "name": "PVR INOX",
+      "floor": "4F",
+      "category": "entertainment-cinema",
+      "anchor": true,
+      "layer": "layer5",
+      "desc": "A premium multiplex offering an immersive cinema experience with advanced screens, first dine-in cinema, superior sound, and comfortable seating for movie lovers.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F3rd_Floor_logos_4.jpg?alt=media&token=bdaaeddc-c84a-4f68-9220-2b04ed533795"
+    },
+    {
+      "id": "store-87",
+      "name": "Charminar",
+      "floor": "4F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer5",
+      "desc": "A heritage-inspired restaurant serving authentic biryanis and traditional dishes rooted in rich Hyderabad-style culinary traditions.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F4th_Floor_logos_6.jpg?alt=media&token=ddf010c5-035d-4e69-a5e3-e4010c037381"
+    },
+    {
+      "id": "store-88",
+      "name": "Big Bean Caf\u00e9 and Restaurant",
+      "floor": "3F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer4",
+      "desc": "<div>A cozy dining destination offering coffee, quick bites, and meals in a relaxed setting ideal for casual meetups and everyday dining.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FBrand_Logos_R%26C_2.jpg?alt=media&token=68e6ea9e-c1b9-4356-9cc6-61cdf158c5a0"
+    },
+    {
+      "id": "store-89",
+      "name": "Destini Bar & Kitchen",
+      "floor": "3F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer4",
+      "desc": "A lively restaurant and bar offering curated food, beverages, and vibrant ambience designed for social gatherings and evening experiences.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FBrand_Logos_R%26C_7.jpg?alt=media&token=a37aa2cc-cce5-40cb-a559-a8ce0dbd1061"
+    },
+    {
+      "id": "store-90",
+      "name": "Cuddly",
+      "floor": "3F",
+      "category": "kids-fashion",
+      "anchor": false,
+      "layer": "layer4",
+      "desc": "A kids and lifestyle brand offering soft toys, baby essentials, and accessories designed for comfort, safety, and joyful everyday experiences.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F3rd_Floor_logos_1.jpg?alt=media&token=3539048d-1f28-4783-a829-1e8190c1fc24"
+    },
+    {
+      "id": "store-91",
+      "name": "Fanship",
+      "floor": "3F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer4",
+      "desc": "A merchandise destination offering licensed products, collectibles, and apparel tailored for fans of movies, sports, and pop culture.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F3rd_Floor_logos_2.jpg?alt=media&token=2e97a019-e02f-4b49-9bc3-98e194ff4a99"
+    },
+    {
+      "id": "store-92",
+      "name": "PVR INOX",
+      "floor": "3F",
+      "category": "entertainment-cinema",
+      "anchor": true,
+      "layer": "layer4",
+      "desc": "A premium multiplex offering an immersive cinema experience with advanced screens, first dine-in cinema, superior sound, and comfortable seating for movie lovers.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F3rd_Floor_logos_4.jpg?alt=media&token=bdaaeddc-c84a-4f68-9220-2b04ed533795"
+    },
+    {
+      "id": "store-93",
+      "name": "Krispi Cr\u00e8me",
+      "floor": "3F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer4",
+      "desc": "A dessert destination offering freshly made doughnuts and beverages, known for its signature treats and indulgent sweet experiences.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F3rd_Floor_logos_5.jpg?alt=media&token=3df87492-9f9b-4243-8827-2e58fa72e482"
+    },
+    {
+      "id": "store-94",
+      "name": "Horror House",
+      "floor": "3F",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer4",
+      "desc": "An immersive attraction delivering thrilling and spine-chilling experiences with themed setups designed for adventure seekers and horror enthusiasts.",
+      "image": ""
+    },
+    {
+      "id": "store-95",
+      "name": "Fun City",
+      "floor": "3F",
+      "category": "entertainment-cinema",
+      "anchor": true,
+      "layer": "layer4",
+      "desc": "A vibrant indoor entertainment zone offering arcade games, rides, and interactive activities designed for fun-filled experiences for kids and families.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F3rd_Floor_logos_3.jpg?alt=media&token=cbeec105-ca74-4451-af0b-87c854466b59"
+    },
+    {
+      "id": "store-96",
+      "name": "Lifestyle",
+      "floor": "2F",
+      "category": "mens-fashion",
+      "anchor": true,
+      "layer": "layer3",
+      "desc": "<div>A multi-brand retail destination offering fashion, beauty, and lifestyle products under one roof for convenient shopping.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F179a04f941055a40862e76746879c5bf.jpg?alt=media&token=78e0e372-07e8-4a35-bfd0-c3a30090e64e"
+    },
+    {
+      "id": "store-97",
+      "name": "HP",
+      "floor": "2F",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A globally trusted technology brand offering laptops, accessories, and computing solutions designed for performance, productivity, and innovation.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_10.jpg?alt=media&token=e482a0f6-25af-4a8f-9e4b-b4296da949b3"
+    },
+    {
+      "id": "store-98",
+      "name": "Virgio",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A new-age fashion label offering clean, contemporary styles designed for effortless dressing and modern, confident wardrobes.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_26.jpg?alt=media&token=4a37b5a6-b9d2-4995-938e-8c1caa995b23"
+    },
+    {
+      "id": "store-99",
+      "name": "Libas",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A popular ethnic wear brand offering comfortable and stylish kurtas, suits, and fusion wear tailored for modern Indian lifestyles.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_15.jpg?alt=media&token=7ffb0a9f-0fa5-4f28-ba40-279ace93b66d"
+    },
+    {
+      "id": "store-100",
+      "name": "Soch",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A stylish ethnic fashion brand offering graceful silhouettes, rich textiles, and contemporary Indian wear for festive and daily occasions.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_21.jpg?alt=media&token=08954797-3f41-41c9-8292-1305913ee5bc"
+    },
+    {
+      "id": "store-101",
+      "name": "Aira by Navrathan",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A premium jewellery boutique showcasing elegant designs crafted with precision, blending heritage craftsmanship with modern sophistication.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_1.jpg?alt=media&token=57d65578-fc10-4509-8c70-3c5ec1d01937"
+    },
+    {
+      "id": "store-102",
+      "name": "Peachmode",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A contemporary ethnic wear destination offering sarees and occasion outfits with modern designs, vibrant colors, and refined styling.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_17.jpg?alt=media&token=1ca48055-2865-4b90-ab17-d0b1e75ef423"
+    },
+    {
+      "id": "store-103",
+      "name": "JUS JUMPIN",
+      "floor": "2F",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A high-energy trampoline and play zone offering interactive activities and fun experiences designed for kids, families, and group entertainment.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FMall_Logos_New_3.jpg?alt=media&token=90d51a14-4194-4de3-b1db-0cd6936c10ea"
+    },
+    {
+      "id": "store-104",
+      "name": "MEENA BAZAAR",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A renowned ethnic fashion brand offering elegant Indian wear with rich fabrics, intricate detailing, and timeless festive appeal.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_16.jpg?alt=media&token=0ff279f2-15e0-46de-9359-184af533794b"
+    },
+    {
+      "id": "store-105",
+      "name": "BARBEQUE NATION",
+      "floor": "2F",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A popular dining destination known for live grills, buffet spreads, and an engaging dining experience ideal for families and celebrations.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_4.jpg?alt=media&token=9e5c2008-657b-4be5-b67e-589c5c3f860b"
+    },
+    {
+      "id": "store-106",
+      "name": "Samsung",
+      "floor": "2F",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A leading electronics destination offering smartphones, gadgets, and smart devices designed for seamless connectivity and modern living.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_19.jpg?alt=media&token=5521d7ca-a1cc-4567-8cac-cc7c5c86fdbc"
+    },
+    {
+      "id": "store-107",
+      "name": "iGadgets",
+      "floor": "2F",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A tech accessories store offering mobile gadgets, cases, and essentials designed for protection, performance, and everyday convenience.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_11.jpg?alt=media&token=c2b79c95-7444-48ad-84ea-90ee1296e4fe"
+    },
+    {
+      "id": "store-108",
+      "name": "Babyshop",
+      "floor": "2F",
+      "category": "kids-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A complete kids\u2019 retail destination offering apparel, toys, and essentials designed for comfort, safety, and growing families.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_2.jpg?alt=media&token=df8ac33a-4243-4875-ae62-dc74413c6e92"
+    },
+    {
+      "id": "store-109",
+      "name": "Homes2Life",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A lifestyle store offering stylish furniture and d\u00e9cor solutions designed to enhance comfort and elevate modern living spaces.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_9.jpg?alt=media&token=2c4a7072-04ba-4009-90ff-ae25e6dd3820"
+    },
+    {
+      "id": "store-110",
+      "name": "Odette",
+      "floor": "2F",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A trendy accessories brand offering chic jewellery and statement pieces designed to elevate everyday and occasion styling.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FMall_Logos_New_5.jpg?alt=media&token=7c478ce2-4560-42fd-8296-4e8ace5f4dc0"
+    },
+    {
+      "id": "store-111",
+      "name": "NYKD by Nykaa",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A comfort-first innerwear and loungewear brand offering soft, functional designs crafted for confidence and everyday ease.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_12.jpg?alt=media&token=9164691d-d15b-4a6b-86cf-6057b111d5c6"
+    },
+    {
+      "id": "store-112",
+      "name": "Uniseoul",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A youth-focused fashion brand inspired by Korean trends, offering playful, stylish apparel with a fresh and modern appeal.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_25.jpg?alt=media&token=60c77e58-e6ea-44a4-b967-09440f9ce86a"
+    },
+    {
+      "id": "store-113",
+      "name": "Zouk",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A contemporary accessories brand blending Indian-inspired prints with modern functionality across bags, wallets, and travel essentials.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_28.jpg?alt=media&token=26a7420c-8c34-4182-9121-dacc79086b6b"
+    },
+    {
+      "id": "store-114",
+      "name": "Lavie",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A fashion accessories brand offering handbags and essentials designed for everyday functionality with a contemporary style edge.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_14.jpg?alt=media&token=eb213217-acb5-4ab9-94c7-986befdd8093"
+    },
+    {
+      "id": "store-115",
+      "name": "Go Colors",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A specialized bottom-wear brand offering versatile leggings, pants, and essentials across colors, fits, and modern styling.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_8.jpg?alt=media&token=c4d8459a-526e-4d43-8318-0a5228211323"
+    },
+    {
+      "id": "store-116",
+      "name": "Big Hello",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A curated plus-size fashion store featuring trendy, well-fitted styles crafted for comfort, confidence, and modern expression.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_5.jpg?alt=media&token=65002743-6034-40c8-b9ac-d01ca0fa1823"
+    },
+    {
+      "id": "store-117",
+      "name": "Enamor",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A premium innerwear and athleisure brand offering comfort-driven essentials designed with quality fabrics and modern styling.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_7.jpg?alt=media&token=2e8f8faf-d7fe-422e-a0bd-30a997b087ac"
+    },
+    {
+      "id": "store-118",
+      "name": "Vismay",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A jewellery destination offering elegant and intricate designs that combine traditional craftsmanship with contemporary appeal.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_27.jpg?alt=media&token=1849efbd-1570-4e68-8862-22955ba79216"
+    },
+    {
+      "id": "store-119",
+      "name": "Aurelia",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "A popular ethnic wear brand offering elegant kurtas and fusion wear designed for comfort, versatility, and everyday sophistication.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FMall_Logos_New_2.jpg?alt=media&token=6037e5a7-08cd-46fb-b99b-d1a1a3c0be0e"
+    },
+    {
+      "id": "store-120",
+      "name": "Agaro",
+      "floor": "2F",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "&nbsp;A home and lifestyle brand offering practical appliances and essentials designed for convenience, efficiency, and modern living.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_13.jpg?alt=media&token=4851f6bf-679e-4bb0-bf25-758041597320"
+    },
+    {
+      "id": "store-121",
+      "name": "Vendi",
+      "floor": "2F",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "A contemporary fashion brand offering stylish apparel designed for modern lifestyles with a focus on comfort and trend-driven designs.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FMall_Logos_New_7.jpg?alt=media&token=c244335c-5885-4965-bf42-9b775003d569"
+    },
+    {
+      "id": "store-122",
+      "name": "TONI&GUY",
+      "floor": "2F",
+      "category": "beauty-wellness",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A premium salon brand offering expert hair and beauty services with a focus on style, precision, and contemporary grooming.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_24.jpg?alt=media&token=044c8dd6-97a2-4aec-90c6-9efe2cbb660c"
+    },
+    {
+      "id": "store-123",
+      "name": "Sapna Book House",
+      "floor": "2F",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer3",
+      "desc": "<div>A well-known bookstore offering a wide selection of books, stationery, and learning essentials, catering to readers, students, and families alike.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F2nd_Floor_logos_20.jpg?alt=media&token=c1705c27-b132-4139-aa9e-5d71c5b59807"
+    },
+    {
+      "id": "store-124",
+      "name": "Lulu Daily",
+      "floor": "LGF",
+      "category": "supermarket-groceries",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "A convenience retail store offering everyday groceries, essentials, and quick shopping solutions designed for ease and accessibility.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2Flulu-daily.jpg?alt=media&token=a041f969-eec5-429b-a0b6-216c4ac83ea2"
+    },
+    {
+      "id": "store-125",
+      "name": "Frido",
+      "floor": "LGF",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "A comfort-focused lifestyle brand offering ergonomic products and wellness essentials designed to support better posture and relaxation.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FFrido-R-Logo.png?alt=media&token=31113e5c-fb24-461d-815a-890d3a115328"
+    },
+    {
+      "id": "store-126",
+      "name": "Royal Massage Chair",
+      "floor": "LGF",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "A wellness destination offering advanced massage chairs designed to deliver relaxation, comfort, and stress relief for everyday rejuvenation.",
+      "image": ""
+    },
+    {
+      "id": "store-127",
+      "name": "Vea by Leo's Gold and Diamond",
+      "floor": "LGF",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "<div>A premium jewellery brand offering elegant diamond pieces crafted with precision, designed for timeless beauty and sophistication.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUntitled-1.jpg?alt=media&token=1fd4dddf-137a-4c0d-9590-19a40ec9aa6b"
+    },
+    {
+      "id": "store-129",
+      "name": "HOUSE OF IKKAT",
+      "floor": "LGF",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "<div>An ethnic fashion brand offering handcrafted ikkat apparel that blends traditional weaving techniques with contemporary design aesthetics.</div>",
+      "image": ""
+    },
+    {
+      "id": "store-130",
+      "name": "Swa Diamonds",
+      "floor": "LGF",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "<div>&nbsp;A premium jewellery brand offering finely crafted diamond pieces that blend elegance, precision, and timeless design.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FLGF_Logos_7.jpg?alt=media&token=68ab39ef-a75a-447b-8c3b-ce4d0b9dc048"
+    },
+    {
+      "id": "store-131",
+      "name": "Peora",
+      "floor": "LGF",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "<div>&nbsp;A jewellery destination offering stylish and contemporary designs crafted to suit both everyday wear and special occasions.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FLGF_Logos_6.jpg?alt=media&token=4f5a8d33-3e0a-42c3-9908-37efa4436f60"
+    },
+    {
+      "id": "store-132",
+      "name": "Nail Aura",
+      "floor": "LGF",
+      "category": "beauty-wellness",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "<div>A beauty studio offering professional nail care services with stylish designs, hygiene standards, and a focus on self-care experiences.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FLGF_Logos_5.jpg?alt=media&token=1e402949-8790-4c26-8539-4e2c9d04b274"
+    },
+    {
+      "id": "store-133",
+      "name": "Lulu Eatry",
+      "floor": "LGF",
+      "category": "supermarket-groceries",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "A casual dining space offering a variety of quick meals, beverages, and comfort food designed for convenient everyday dining.",
+      "image": ""
+    },
+    {
+      "id": "store-134",
+      "name": "Yousta",
+      "floor": "LGF",
+      "category": "beauty-wellness",
+      "anchor": true,
+      "layer": "layer2",
+      "desc": "<div>A value-driven fashion destination offering trendy apparel and essentials designed for everyday comfort, style, and affordable shopping.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2Fyousta.jpg?alt=media&token=a6077c68-cb88-4c3f-b238-fd58b6da903b"
+    },
+    {
+      "id": "store-135",
+      "name": "Master Guard",
+      "floor": "LGF",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "A security and service solutions brand offering reliable protection systems and customer-focused safety services for modern needs.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FMaster_Guard_-_LGF.png?alt=media&token=a08cf07a-8ade-47a9-a623-d0a54d3dd51e"
+    },
+    {
+      "id": "store-136",
+      "name": "Zubi Gold",
+      "floor": "LGF",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "<div>&nbsp;A trusted jewellery store offering gold collections designed with intricate craftsmanship and timeless appeal.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FLGF_Logos_10.jpg?alt=media&token=103aa5b6-161d-4ac0-9c6e-af20ac8a2d4b"
+    },
+    {
+      "id": "store-137",
+      "name": "Inaara Jewellery",
+      "floor": "LGF",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "<div>A premium jewellery boutique offering elegant designs crafted with precision, combining tradition with modern styling.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FMall_Logos_New_11.jpg?alt=media&token=39f1d69a-6fdd-4056-bae5-472008f1ab17"
+    },
+    {
+      "id": "store-138",
+      "name": "Mobikins",
+      "floor": "LGF",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "<div>A mobile accessories store offering essential gadgets, covers, and tech add-ons designed for functionality and daily use.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FLGF_Logos_4.jpg?alt=media&token=088d02f3-9a2d-466f-acf5-eb6e4fff7da2"
+    },
+    {
+      "id": "store-139",
+      "name": "Tokyo Talkies & Highlander",
+      "floor": "LGF",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer2",
+      "desc": "A youth-focused fashion store offering contemporary apparel with modern designs, catering to style-conscious shoppers seeking trend-driven outfits.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FTokyo-Talkies-%26-Highlander.jpg?alt=media&token=f3a170a4-b049-4c5d-a5c2-00472e122207"
+    },
+    {
+      "id": "store-140",
+      "name": "Ray Ban",
+      "floor": "UGF",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "An iconic eyewear brand offering stylish sunglasses and frames known for quality, design, and timeless appeal.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_19.jpg?alt=media&token=0af32a2d-d4f2-499f-8d1a-728fb915b11e"
+    },
+    {
+      "id": "store-141",
+      "name": "Vibe Square",
+      "floor": "UGF",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "An experiential zone for live screenings, IPL matches, movie nights, and events, creating a lively social hub for entertainment and community experiences.",
+      "image": ""
+    },
+    {
+      "id": "store-142",
+      "name": "U.S. Polo",
+      "floor": "UGF",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A classic lifestyle brand inspired by polo heritage, offering timeless casual fashion with a refined American aesthetic.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_13.jpg?alt=media&token=198ddd3b-26fd-45b3-baa9-f89a143520a6"
+    },
+    {
+      "id": "store-143",
+      "name": "Levis",
+      "floor": "UGF",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A globally iconic denim brand offering durable jeans and casualwear that combine heritage with contemporary fits",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_12.jpg?alt=media&token=6b09214a-6708-4e02-900c-efad764aa972"
+    },
+    {
+      "id": "store-144",
+      "name": "Rare Rabbit",
+      "floor": "UGF",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A premium menswear brand offering bold, fashion-forward styles crafted for modern and confident individuals.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_18.jpg?alt=media&token=c2a1c8b3-a1dd-49c3-8c78-852067664856"
+    },
+    {
+      "id": "store-145",
+      "name": "Aldo",
+      "floor": "UGF",
+      "category": "footwear",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A global footwear and accessories brand offering stylish designs that combine modern trends with everyday functionality.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_1.jpg?alt=media&token=781749fa-c718-44b3-9afa-30dc715e73d8"
+    },
+    {
+      "id": "store-146",
+      "name": "Bath & Body Works",
+      "floor": "UGF",
+      "category": "beauty-wellness",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A fragrance-led brand offering body care, candles, and home products designed to elevate everyday self-care experiences.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_2.jpg?alt=media&token=507eeb0f-674f-44a7-ba0d-80ab0b37667c"
+    },
+    {
+      "id": "store-147",
+      "name": "Forest Essentials",
+      "floor": "UGF",
+      "category": "beauty-wellness",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A luxury Ayurvedic brand offering natural skincare and wellness products crafted using traditional formulations and modern expertise.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_6.jpg?alt=media&token=318f1bd3-31ba-4e67-86b2-b3051df15a9a"
+    },
+    {
+      "id": "store-148",
+      "name": "Apple \u2013 Tribe",
+      "floor": "UGF",
+      "category": "electronics-eyewear",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "An authorized Apple destination offering premium devices, accessories, and expert support for a seamless technology experience.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FMall_Logos_New_12.jpg?alt=media&token=ff5c9b9d-96ef-44f6-a2f3-0fc7d71c92f6"
+    },
+    {
+      "id": "store-149",
+      "name": "Gap",
+      "floor": "UGF",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A globally recognized fashion brand offering clean, comfortable apparel and timeless wardrobe essentials for everyday style.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_7.jpg?alt=media&token=604a60d8-6ba1-4be8-a237-137a016ff86f"
+    },
+    {
+      "id": "store-150",
+      "name": "Samsonite",
+      "floor": "UGF",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "<div>A premium travel gear brand offering durable luggage and accessories designed for style, security, and convenience.</div><div><br></div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_22.jpg?alt=media&token=a83d696e-f436-436f-bb0d-01a4d3c8986d"
+    },
+    {
+      "id": "store-151",
+      "name": "Kampanero",
+      "floor": "UGF",
+      "category": "footwear",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A handcrafted leather brand offering vintage-inspired bags and accessories with a focus on durability and timeless design.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_11.jpg?alt=media&token=856fdfb0-bae6-442c-89a7-2d0b69a56263"
+    },
+    {
+      "id": "store-152",
+      "name": "Star Bucks",
+      "floor": "UGF",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A premium coffeehouse offering handcrafted beverages and a comfortable space for work, meetings, and relaxation.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_24.jpg?alt=media&token=aeeaa14e-8743-4719-b9c1-975ae970168a"
+    },
+    {
+      "id": "store-153",
+      "name": "Faces Canada",
+      "floor": "UGF",
+      "category": "beauty-wellness",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A popular cosmetics brand offering high-quality makeup products designed for everyday beauty and professional finishes.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FMall_Logos_New_9.jpg?alt=media&token=916b8e59-6dfb-4405-92df-c5844dcdb13e"
+    },
+    {
+      "id": "store-154",
+      "name": "Love Child Masaba",
+      "floor": "UGF",
+      "category": "beauty-wellness",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A bold beauty brand offering vibrant makeup products inspired by creativity, individuality, and modern expression.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FMall_Logos_New_8.jpg?alt=media&token=1c7af846-350b-4e86-85e1-552000146da0"
+    },
+    {
+      "id": "store-155",
+      "name": "Fabelle",
+      "floor": "UGF",
+      "category": "dining-fb",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A luxury chocolate boutique offering handcrafted gourmet chocolates, premium gifting collections, and indulgent dessert experiences.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FMall_Logos_New_10.jpg?alt=media&token=2131059e-a583-444b-b7de-5ab6733a1ae7"
+    },
+    {
+      "id": "store-156",
+      "name": "Lifestyle",
+      "floor": "UGF",
+      "category": "mens-fashion",
+      "anchor": true,
+      "layer": "layer1",
+      "desc": "A multi-brand retail destination offering fashion, beauty, and lifestyle products under one roof for convenient shopping.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2F179a04f941055a40862e76746879c5bf.jpg?alt=media&token=78e0e372-07e8-4a35-bfd0-c3a30090e64e"
+    },
+    {
+      "id": "store-157",
+      "name": "Snitch",
+      "floor": "UGF",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A fast-growing menswear brand offering trendy, statement styles designed for modern fashion-conscious individuals.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_21.jpg?alt=media&token=619adfaf-d13f-4fad-ab4e-f663dece0262"
+    },
+    {
+      "id": "store-158",
+      "name": "Hidesign",
+      "floor": "UGF",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A premium leather brand offering handcrafted bags and accessories designed with traditional craftsmanship and modern appeal.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_9.jpg?alt=media&token=ee20d460-fd5b-4bac-9f5d-6559350e21ae"
+    },
+    {
+      "id": "store-159",
+      "name": "Beauty and Nutrie",
+      "floor": "UGF",
+      "category": "beauty-wellness",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A wellness-focused brand offering skincare and nutrition products designed to support beauty, health, and self-care routines.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_3.jpg?alt=media&token=71df8b0e-0822-4c30-8729-5a42f354c61c"
+    },
+    {
+      "id": "store-160",
+      "name": "Giva",
+      "floor": "UGF",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A modern jewellery brand offering elegant silver pieces crafted for everyday wear with a contemporary touch.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_8.jpg?alt=media&token=b209ff36-78dc-46a1-bfc5-ae90e5cbecc6"
+    },
+    {
+      "id": "store-161",
+      "name": "The Souled Store",
+      "floor": "UGF",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A pop culture-inspired brand offering bold apparel and accessories designed for expressive and youthful fashion.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_25.jpg?alt=media&token=94931fa9-6f41-445d-b539-558a3b9351bc"
+    },
+    {
+      "id": "store-162",
+      "name": "Mokobora",
+      "floor": "UGF",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A travel accessories brand offering thoughtfully designed luggage and essentials focused on functionality and modern aesthetics.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_15.jpg?alt=media&token=df9e20f0-2edc-4bd9-8682-0f90254d70e0"
+    },
+    {
+      "id": "store-163",
+      "name": "Mia by Tanishq",
+      "floor": "UGF",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "<div>A fine jewellery brand offering lightweight, stylish designs crafted for everyday elegance and modern lifestyles.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_14.jpg?alt=media&token=d8f01f6b-6553-479a-9759-ba4afb131ccb"
+    },
+    {
+      "id": "store-164",
+      "name": "Sulthan Diamonds",
+      "floor": "UGF",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A jewelry destination offering elegant and finely crafted pieces designed to reflect tradition, sophistication, and modern aesthetics.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_23.jpg?alt=media&token=d83e55d5-7a56-4396-8b4d-f03e43086a31"
+    },
+    {
+      "id": "store-165",
+      "name": "Feeling Perfume",
+      "floor": "UGF",
+      "category": "beauty-wellness",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A fragrance destination offering a wide range of perfumes and scents designed to suit diverse preferences and occasions.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2Ffeelings-perfume.png?alt=media&token=fb4b6340-aff5-4f26-bab3-a6e225644ae3"
+    },
+    {
+      "id": "store-166",
+      "name": "Just In Time",
+      "floor": "UGF",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A multi-brand watch destination offering a curated collection of premium timepieces for every style and occasion.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_10.jpg?alt=media&token=293f25f9-90ec-45d2-943c-0ce55e744c4a"
+    },
+    {
+      "id": "store-167",
+      "name": "Beverly Hills Polo Club",
+      "floor": "UGF",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A lifestyle fashion brand inspired by polo heritage, offering stylish apparel and accessories with a blend of sport and sophistication.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_4.jpg?alt=media&token=4ab28baf-4b9a-4016-9e0d-fa60e98ed862"
+    },
+    {
+      "id": "store-168",
+      "name": "Rareism",
+      "floor": "UGF",
+      "category": "womens-fashion",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A contemporary women\u2019s fashion brand offering elegant silhouettes and modern designs for refined everyday dressing.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_17.jpg?alt=media&token=926d0295-404e-4728-9cb1-078071857a44"
+    },
+    {
+      "id": "store-169",
+      "name": "CaratLane",
+      "floor": "UGF",
+      "category": "jewellery-luxury",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A modern jewellery brand offering accessible diamond and gold designs crafted for everyday elegance.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_5.jpg?alt=media&token=513a6306-1985-4f64-8da4-fda86763bb44"
+    },
+    {
+      "id": "store-170",
+      "name": "Raymonds",
+      "floor": "UGF",
+      "category": "mens-fashion",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "<div>A premium menswear brand offering ready-to-wear collections crafted with fine fabrics and sophisticated tailoring.</div>",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_20.jpg?alt=media&token=6e704ccd-2d77-482a-9fc5-b88b764dec37"
+    },
+    {
+      "id": "store-171",
+      "name": "Nykaa",
+      "floor": "UGF",
+      "category": "beauty-wellness",
+      "anchor": false,
+      "layer": "layer1",
+      "desc": "A leading beauty destination offering cosmetics, skincare, and personal care products across global and Indian brands.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FUGF_Logos_16.jpg?alt=media&token=5e32fb06-0d52-4254-828b-2c3fcae08ac5"
+    }
+  ]
+}

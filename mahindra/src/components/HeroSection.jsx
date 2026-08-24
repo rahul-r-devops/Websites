@@ -1,28 +1,27 @@
-import { useState, useCallback, Suspense } from 'react';
-import Scene3D from './Scene3D';
-import { hero, scene3d } from '../data/mallContent';
-import { sceneFloors } from '../data/floors';
+import { useEffect, useState } from 'react';
+import { hero } from '../data/mallContent';
+import { heroCarouselImages } from '../data/officialImages';
 import StatsStrip from './StatsStrip';
-import MaterialIcon from './MaterialIcon';
 
-function SceneLoader() {
-  return (
-    <div className="scene-loader">
-      <div className="scene-loader-bar" />
-      <p>{scene3d.loadingLabel}</p>
-    </div>
-  );
-}
+const CAROUSEL_INTERVAL_MS = 5000;
 
-export default function HeroSection({ activeFloor, onFloorChange }) {
-  const [resetKey, setResetKey] = useState(0);
+export default function HeroSection() {
+  const [activeIndex, setActiveIndex] = useState(0);
 
-  const handleReset = useCallback(() => {
-    onFloorChange(null);
-    setResetKey((k) => k + 1);
-  }, [onFloorChange]);
+  useEffect(() => {
+    if (heroCarouselImages.length <= 1) return undefined;
 
-  const selectedFloor = sceneFloors.find((f) => f.id === activeFloor);
+    const prefersReducedMotion = window.matchMedia(
+      '(prefers-reduced-motion: reduce)'
+    ).matches;
+    if (prefersReducedMotion) return undefined;
+
+    const timer = window.setInterval(() => {
+      setActiveIndex((current) => (current + 1) % heroCarouselImages.length);
+    }, CAROUSEL_INTERVAL_MS);
+
+    return () => window.clearInterval(timer);
+  }, []);
 
   return (
     <section className="hero-section" id="hero">
@@ -46,61 +45,39 @@ export default function HeroSection({ activeFloor, onFloorChange }) {
           </div>
         </div>
 
-        <div className="hero-3d-wrap">
-          <div className="hero-3d-header">
-            <div>
-              <p className="hero-3d-label">3D Mall Simulator · Interactive 4-Level Model</p>
-              <h2 className="hero-3d-title">{scene3d.title}</h2>
-              <p className="hero-3d-sub">{scene3d.subtitle}</p>
-            </div>
-            <button
-              type="button"
-              className="reset-camera-btn"
-              onClick={handleReset}
+        <div className="hero-visual hero-carousel" aria-live="polite">
+          {heroCarouselImages.map((image, index) => (
+            <div
+              key={image.src}
+              className={`hero-carousel-slide ${index === activeIndex ? 'is-active' : ''}`}
+              aria-hidden={index !== activeIndex}
             >
-              <MaterialIcon name="refresh" size={16} />
-              {scene3d.resetLabel}
-            </button>
-          </div>
-
-          <div className="scene-container">
-            <Suspense fallback={<SceneLoader />}>
-              <Scene3D
-                key={resetKey}
-                activeFloor={activeFloor}
-                onLoaded={() => {}}
+              <img
+                src={image.src}
+                alt={image.alt}
+                loading={index === 0 ? 'eager' : 'lazy'}
+                style={{ objectPosition: image.objectPosition || 'center center' }}
               />
-            </Suspense>
-          </div>
+            </div>
+          ))}
 
-          <div className="floor-selector-3d">
-            {sceneFloors.map((floor) => (
+          <div
+            className="hero-carousel-dots"
+            role="tablist"
+            aria-label="Hero image carousel"
+          >
+            {heroCarouselImages.map((image, index) => (
               <button
-                key={floor.id}
+                key={image.src}
                 type="button"
-                className={`floor-3d-btn ${activeFloor === floor.id ? 'active' : ''}`}
-                onClick={() =>
-                  onFloorChange(activeFloor === floor.id ? null : floor.id)
-                }
-              >
-                {floor.label}
-              </button>
+                role="tab"
+                aria-selected={index === activeIndex}
+                aria-label={`Show image ${index + 1} of ${heroCarouselImages.length}`}
+                className={index === activeIndex ? 'active' : ''}
+                onClick={() => setActiveIndex(index)}
+              />
             ))}
           </div>
-
-          {selectedFloor && (
-            <div className="selected-floor-info">
-              <span className="selected-floor-label">
-                Selected Level: {selectedFloor.short}
-              </span>
-              <h4>{selectedFloor.title}</h4>
-              <p>{selectedFloor.description}</p>
-            </div>
-          )}
-
-          <p className="explore-hint">
-            Drag to rotate · Scroll to zoom
-          </p>
         </div>
       </div>
 

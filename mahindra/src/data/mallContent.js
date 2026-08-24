@@ -1,7 +1,6 @@
 export const navLinks = [
   { label: 'Explore', href: '#hero' },
   { label: 'Brands', href: '#directory' },
-  { label: 'Floors', href: '#floors' },
   { label: 'Events', href: '#events' },
   { label: 'Visit', href: '#visit' },
 ];
@@ -13,7 +12,7 @@ export const hero = {
   subtitle:
     '161+ STORES & BRANDS · 34 F&B BRANDS · DINE-IN MULTIPLEX · ELECTRONICS CITY PHASE 2 · YOUR EVERYDAY DESTINATION',
   description:
-    'Interactive 3D Mall — explore four floors of retail, dining, cinema, and family entertainment before you arrive.',
+    'Four floors of retail, dining, cinema, and family entertainment — Electronics City’s everyday destination for shopping, dining, and leisure.',
   ctaPrimary: 'Start Exploring',
   ctaSecondary: 'Plan Your Visit',
 };
@@ -66,6 +65,12 @@ export const pillars = {
       description:
         '161+ retail outlets and 300+ global brands across fashion, beauty, lifestyle and everyday essentials.',
       detail: 'Women’s · Men’s · Kids’ fashion',
+      image: 'https://d9eof1pfoysfv.cloudfront.net/womens_49a869f4bc.jpg',
+      logos: [
+        'https://d9eof1pfoysfv.cloudfront.net/Lifestyle_logo_UGF_1a8ea01bf9.png',
+        'https://d9eof1pfoysfv.cloudfront.net/Max_1st_Floor_7d0afcab13.jpg',
+        'https://d9eof1pfoysfv.cloudfront.net/Levis_8c4df2c57d.jpg',
+      ],
     },
     {
       num: '02',
@@ -73,6 +78,10 @@ export const pillars = {
       description:
         '34 food and beverage brands, from a fast family bite to fine dining worth lingering over.',
       detail: '28,522.70 sq. ft. of flavour',
+      image: 'https://d9eof1pfoysfv.cloudfront.net/card_3_20da899394.jpg',
+      logos: [
+        'https://d9eof1pfoysfv.cloudfront.net/Lulu_Hypermarket_logo_1_dda075a193.png',
+      ],
     },
     {
       num: '03',
@@ -80,6 +89,10 @@ export const pillars = {
       description:
         'A dedicated 17,500 sq. ft. Family Entertainment Centre for the young and young at heart.',
       detail: 'For every kind of weekend',
+      image: 'https://d9eof1pfoysfv.cloudfront.net/kidss_fb0815b80c.jpg',
+      logos: [
+        'https://d9eof1pfoysfv.cloudfront.net/logo_funcity_1_4d9cb2ce0e.png',
+      ],
     },
     {
       num: '04',
@@ -87,6 +100,8 @@ export const pillars = {
       description:
         'India’s first dine-in theatre concept by PVR INOX, alongside an 8-screen multiplex for an elevated movie night.',
       detail: 'Settle in, stay longer',
+      image: 'https://d9eof1pfoysfv.cloudfront.net/card_1_1fd8dfab64.jpg',
+      logos: [],
     },
   ],
 };
@@ -149,24 +164,28 @@ export const legacy = {
       description:
         'Build a career with meaning, longevity and purpose within a culture of trust, diversity and inclusion.',
       url: 'https://www.m5mahendragroup.com/careers',
+      image: 'https://d9eof1pfoysfv.cloudfront.net/About_Us_Cards_img1_a93e6051db.jpg',
     },
     {
       title: 'Message from our Managing Director',
       description:
         'With a vision rooted in strong values, our Managing Director leads the way in driving innovation and sustainable growth to create thriving communities and lasting legacies.',
       url: 'https://www.m5mahendragroup.com/about-us#leadership',
+      image: 'https://d9eof1pfoysfv.cloudfront.net/MD_Photo_1b72237184.png',
     },
     {
       title: 'Our signature projects',
       description:
         'Discover Mahendra’s landmark residential communities that redefine urban living.',
       url: 'https://www.m5mahendragroup.com/residential',
+      image: 'https://d9eof1pfoysfv.cloudfront.net/Cardsignature_projects_5362b13970.jpg',
     },
     {
       title: 'Awards & Recognitions',
       description:
         'We are proud to be acknowledged by peers, industry bodies, and most importantly — the families and communities we serve.',
       url: 'https://www.m5mahendragroup.com/awards',
+      image: 'https://d9eof1pfoysfv.cloudfront.net/Card_awards_6199671b14.jpg',
     },
   ],
 };

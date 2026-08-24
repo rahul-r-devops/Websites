@@ -1,156 +1,112 @@
 import { useMemo, useState } from 'react';
 import { floors } from '../data/floors';
-import { stores } from '../data/stores';
-import { categoryMap } from '../data/categories';
+import { storeBrands } from '../data/storeBrands';
 import MaterialIcon from './MaterialIcon';
+
+function findBrandLogo(name) {
+  const normalized = name.toLowerCase();
+  const match = storeBrands.find((store) => {
+    const storeName = store.name.toLowerCase();
+    return (
+      storeName === normalized ||
+      storeName.includes(normalized) ||
+      normalized.includes(storeName) ||
+      normalized.split(/[\s/&]+/).some((part) => part.length > 3 && storeName.includes(part))
+    );
+  });
+  return match?.logo || null;
+}
 
 export default function FloorDirectory() {
   const [activeFloor, setActiveFloor] = useState('lgf');
-  const [floorSearch, setFloorSearch] = useState('');
-  const [sortBy, setSortBy] = useState('name');
-
   const floor = floors.find((f) => f.id === activeFloor);
 
-  const floorStores = useMemo(() => {
-    const q = floorSearch.trim().toLowerCase();
-    let list = stores.filter((s) => s.floor === floor?.label);
-
-    if (q) {
-      list = list.filter(
-        (s) =>
-          s.name.toLowerCase().includes(q) ||
-          categoryMap[s.category]?.toLowerCase().includes(q)
-      );
-    }
-
-    list.sort((a, b) => {
-      if (sortBy === 'category') {
-        return categoryMap[a.category]?.localeCompare(categoryMap[b.category] || '');
-      }
-      return a.name.localeCompare(b.name);
-    });
-
-    return list;
-  }, [activeFloor, floor, floorSearch, sortBy]);
+  const anchorLogos = useMemo(
+    () =>
+      (floor?.anchors || []).map((anchor) => ({
+        name: anchor,
+        logo: findBrandLogo(anchor),
+      })),
+    [floor]
+  );
 
   return (
     <section className="section floor-section" id="floors">
       <div className="container">
         <p className="section-label">Interactive Floor Directory</p>
         <h2 className="section-title">Explore M5 Ecity Floor by Floor</h2>
-        <p className="section-desc">
-          6 levels of world-class retail, gourmet dining, multiplex cinema, and
+        <p className="section-desc floor-section-desc">
+          Six levels of world-class retail, gourmet dining, multiplex cinema, and
           family entertainment zones.
         </p>
 
-        <div className="floor-dashboard">
-          <nav className="floor-selector" aria-label="Floor selector">
-            {floors.map((f) => (
-              <button
-                key={f.id}
-                type="button"
-                className={`floor-tab ${activeFloor === f.id ? 'active' : ''}`}
-                onClick={() => {
-                  setActiveFloor(f.id);
-                  setFloorSearch('');
-                }}
-              >
-                <span className="floor-tab-label">{f.shortLabel}</span>
-                <span className="floor-tab-name">{f.name.split(' ')[0]}</span>
-              </button>
-            ))}
-          </nav>
+        <nav className="floor-tabs-row" aria-label="Floor selector">
+          {floors.map((f) => (
+            <button
+              key={f.id}
+              type="button"
+              className={`floor-tab-pill ${activeFloor === f.id ? 'active' : ''}`}
+              onClick={() => setActiveFloor(f.id)}
+            >
+              <span className="floor-tab-label">{f.shortLabel}</span>
+              <span className="floor-tab-name">{f.name}</span>
+            </button>
+          ))}
+        </nav>
 
-          <div className="floor-panel">
-            <div className="floor-panel-content" key={activeFloor}>
-              <div className="floor-panel-header">
-                <div>
-                  <p className="floor-panel-eyebrow">{floor?.label} Level Overview</p>
-                  <h3>{floor?.title}</h3>
-                  <p className="floor-panel-desc">{floor?.description}</p>
-                </div>
-                <a href="#directory" className="floor-directory-link">
-                  View All Stores in Directory
-                  <MaterialIcon name="arrow_forward" size={16} />
-                </a>
+        <div className="floor-panel-modern" key={activeFloor}>
+          <div className="floor-panel-intro">
+            <div>
+              <p className="floor-panel-eyebrow">{floor?.label} Level Overview</p>
+              <h3>{floor?.title}</h3>
+              <p className="floor-panel-desc">{floor?.description}</p>
+            </div>
+            <a href="#landmarks" className="floor-directory-link">
+              Browse featured brands
+              <MaterialIcon name="arrow_forward" size={16} />
+            </a>
+          </div>
+
+          {floor?.mapSrc && (
+            <figure className="floor-map floor-map-featured">
+              <figcaption>Official floor map — {floor.label}</figcaption>
+              <div className="floor-map-frame">
+                <img
+                  src={floor.mapSrc}
+                  alt={`${floor.title} map — M5 Ecity Mall`}
+                  loading="lazy"
+                />
               </div>
+            </figure>
+          )}
 
-              <div className="floor-highlights">
-                <h4>Highlights</h4>
-                <ul>
-                  {floor?.highlights.map((h) => (
-                    <li key={h}>{h}</li>
-                  ))}
-                </ul>
-              </div>
+          <div className="floor-details-grid">
+            <div className="floor-highlights-card">
+              <h4>Highlights</h4>
+              <ul>
+                {floor?.highlights.map((h) => (
+                  <li key={h}>{h}</li>
+                ))}
+              </ul>
+            </div>
 
-              <div className="floor-anchors">
-                <h4>Featured Floor Anchors</h4>
-                <div className="anchor-chips">
-                  {floor?.anchors.map((a) => (
-                    <span key={a} className="anchor-chip">{a}</span>
-                  ))}
-                </div>
-              </div>
-
-              <div className="floor-stores-panel">
-                <div className="floor-stores-header">
-                  <h4>
-                    Stores on {floor?.label}
-                    <span className="floor-store-count">
-                      {floorStores.length} Brands Operating
-                    </span>
-                  </h4>
-                  <div className="floor-stores-controls">
-                    <div className="floor-search-wrap">
-                      <MaterialIcon name="search" size={16} />
-                      <input
-                        type="search"
-                        placeholder="Search on this floor…"
-                        value={floorSearch}
-                        onChange={(e) => setFloorSearch(e.target.value)}
-                        aria-label="Search stores on this floor"
-                      />
+            <div className="floor-anchors-card">
+              <h4>Featured Floor Anchors</h4>
+              <div className="floor-anchor-logos">
+                {anchorLogos.map((anchor) => (
+                  <div key={anchor.name} className="floor-anchor-logo-item">
+                    <div className="floor-anchor-logo-frame">
+                      {anchor.logo ? (
+                        <img src={anchor.logo} alt={anchor.name} loading="lazy" />
+                      ) : (
+                        <span className="floor-anchor-fallback">
+                          {anchor.name.slice(0, 2).toUpperCase()}
+                        </span>
+                      )}
                     </div>
-                    <select
-                      value={sortBy}
-                      onChange={(e) => setSortBy(e.target.value)}
-                      aria-label="Sort stores"
-                      className="floor-sort"
-                    >
-                      <option value="name">Sort by name</option>
-                      <option value="category">Sort by category</option>
-                    </select>
+                    <p>{anchor.name}</p>
                   </div>
-                </div>
-
-                <div className="floor-table-wrap">
-                  <table className="floor-table">
-                    <thead>
-                      <tr>
-                        <th>Store</th>
-                        <th>Category</th>
-                        <th>Floor</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {floorStores.map((store) => (
-                        <tr key={store.id}>
-                          <td>
-                            <span className="floor-store-name">
-                              {store.name}
-                              {store.anchor && (
-                                <MaterialIcon name="star" size={12} />
-                              )}
-                            </span>
-                          </td>
-                          <td>{categoryMap[store.category]}</td>
-                          <td>{store.floor}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
+                ))}
               </div>
             </div>
           </div>

@@ -1,22 +1,22 @@
 import { useMemo, useState, useRef, useEffect } from 'react';
-import { stores } from '../data/stores';
+import { storeBrands } from '../data/storeBrands';
 import { categories, categoryMap } from '../data/categories';
 import MaterialIcon from './MaterialIcon';
+import BrandLogo from './BrandLogo';
 
-function getInitials(name) {
-  return name
-    .split(/[\s&]+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((w) => w[0])
-    .join('')
-    .toUpperCase();
-}
+const floorFilters = [
+  { id: 'LGF', label: 'LGF' },
+  { id: 'UGF', label: 'UGF' },
+  { id: '1F', label: '1F' },
+  { id: '2F', label: '2F' },
+  { id: '3F', label: '3F' },
+  { id: '4F', label: '4F' },
+];
 
 export default function StoreDirectory() {
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('all');
-  const [anchorsOnly, setAnchorsOnly] = useState(false);
+  const [floor, setFloor] = useState('LGF');
   const [filterOpen, setFilterOpen] = useState(false);
   const filterRef = useRef(null);
 
@@ -32,9 +32,10 @@ export default function StoreDirectory() {
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return stores.filter((store) => {
-      if (anchorsOnly && !store.anchor) return false;
+    return storeBrands.filter((store) => {
+      if (!store.logo) return false;
       if (category !== 'all' && store.category !== category) return false;
+      if (floor && store.floor !== floor) return false;
       if (!q) return true;
       return (
         store.name.toLowerCase().includes(q) ||
@@ -42,7 +43,7 @@ export default function StoreDirectory() {
         store.floor.toLowerCase().includes(q)
       );
     });
-  }, [query, category, anchorsOnly]);
+  }, [query, category, floor]);
 
   const activeCategory = categories.find((c) => c.id === category);
 
@@ -56,97 +57,94 @@ export default function StoreDirectory() {
           gourmet dining, cinema multiplex, and lifestyle stores.
         </p>
 
-        <div className="search-bar" ref={filterRef}>
-          <div className="search-input-wrap">
-            <MaterialIcon name="search" className="search-icon" size={20} />
-            <input
-              type="search"
-              placeholder="Search stores…"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              aria-label="Search stores"
-            />
+        <div className="directory-toolbar">
+          <div className="search-bar" ref={filterRef}>
+            <div className="search-input-wrap">
+              <MaterialIcon name="search" className="search-icon" size={20} />
+              <input
+                type="search"
+                placeholder="Search brands…"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                aria-label="Search brands"
+              />
+            </div>
+
+            <button
+              type="button"
+              className="filter-trigger"
+              onClick={() => setFilterOpen((o) => !o)}
+              aria-expanded={filterOpen}
+              aria-haspopup="listbox"
+            >
+              <MaterialIcon
+                name={activeCategory?.icon || 'filter_list'}
+                size={18}
+              />
+              <span>{category === 'all' ? 'Category' : activeCategory?.label}</span>
+              <MaterialIcon name="expand_more" size={18} />
+            </button>
+
+            {filterOpen && (
+              <div className="filter-dropdown" role="listbox">
+                {categories.map((cat) => (
+                  <button
+                    key={cat.id}
+                    type="button"
+                    role="option"
+                    aria-selected={category === cat.id}
+                    className={`filter-option ${category === cat.id ? 'active' : ''}`}
+                    onClick={() => {
+                      setCategory(cat.id);
+                      setFilterOpen(false);
+                    }}
+                  >
+                    <MaterialIcon name={cat.icon} size={18} />
+                    <span>{cat.label}</span>
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
-          <button
-            type="button"
-            className="filter-trigger"
-            onClick={() => setFilterOpen((o) => !o)}
-            aria-expanded={filterOpen}
-            aria-haspopup="listbox"
-          >
-            <MaterialIcon
-              name={activeCategory?.icon || 'filter_list'}
-              size={18}
-            />
-            <span>{category === 'all' ? 'Filter' : activeCategory?.label}</span>
-            <MaterialIcon name="expand_more" size={18} />
-          </button>
-
-          {filterOpen && (
-            <div className="filter-dropdown" role="listbox">
-              {categories.map((cat) => (
-                <button
-                  key={cat.id}
-                  type="button"
-                  role="option"
-                  aria-selected={category === cat.id}
-                  className={`filter-option ${category === cat.id ? 'active' : ''}`}
-                  onClick={() => {
-                    setCategory(cat.id);
-                    setFilterOpen(false);
-                  }}
-                >
-                  <MaterialIcon name={cat.icon} size={18} />
-                  <span>{cat.label}</span>
-                </button>
-              ))}
-              <div className="filter-divider" />
+          <div className="floor-filter-pills" role="tablist" aria-label="Filter by floor">
+            {floorFilters.map((f) => (
               <button
+                key={f.id}
                 type="button"
-                className={`filter-option anchor-toggle ${anchorsOnly ? 'active' : ''}`}
-                onClick={() => setAnchorsOnly((a) => !a)}
+                role="tab"
+                aria-selected={floor === f.id}
+                className={`floor-filter-pill ${floor === f.id ? 'active' : ''}`}
+                onClick={() => setFloor(f.id)}
               >
-                <MaterialIcon name="star" size={18} />
-                <span>Show Anchors Only</span>
-                <MaterialIcon
-                  name={anchorsOnly ? 'toggle_on' : 'toggle_off'}
-                  size={20}
-                />
+                {f.label}
               </button>
-            </div>
-          )}
+            ))}
+          </div>
         </div>
 
         <div className="directory-meta">
-          <span className="store-count-badge">{filtered.length} stores</span>
+          <span className="store-count-badge">
+            Showing {filtered.length} of {storeBrands.length} brands
+          </span>
         </div>
 
         {filtered.length === 0 ? (
           <div className="empty-state">
             <MaterialIcon name="storefront" size={32} />
-            <p>No stores match your search. Try a different filter or keyword.</p>
+            <p>No brands match your search. Try a different filter or keyword.</p>
           </div>
         ) : (
-          <div className="store-grid">
-            {filtered.map((store) => (
-              <article key={store.id} className="store-card">
-                <div className="store-avatar">{getInitials(store.name)}</div>
-                <div className="store-card-body">
-                  <h3>
-                    {store.name}
-                    {store.anchor && (
-                      <MaterialIcon name="star" size={14} className="anchor-star" />
-                    )}
-                  </h3>
-                  <div className="store-meta">
-                    <span className="floor-badge">{store.floor}</span>
-                    <span className="category-tag">
-                      {categoryMap[store.category]}
-                    </span>
+          <div className="brand-logo-grid">
+            {filtered.map((brand) => (
+              <div key={brand.id} className="brand-logo-cell">
+                <div className="brand-logo-item">
+                  <div className="brand-logo-frame">
+                    <BrandLogo name={brand.name} logo={brand.logo} />
                   </div>
+                  <p className="brand-logo-tooltip">{brand.name}</p>
                 </div>
-              </article>
+              </div>
             ))}
           </div>
         )}

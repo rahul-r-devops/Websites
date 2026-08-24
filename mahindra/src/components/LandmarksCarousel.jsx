@@ -70,15 +70,25 @@ export default function LandmarksCarousel() {
             {anchors.map((anchor) => (
               <div key={anchor.id} className="embla__slide">
                 <article className="landmark-card">
-                  <div className="landmark-card-top">
-                    <span className="landmark-tag">{anchor.tag}</span>
-                    <span className="landmark-floor">{anchor.floor}</span>
+                  <div className="landmark-card-visual">
+                    <img src={anchor.image} alt={anchor.name} loading="lazy" />
+                    {anchor.logo && (
+                      <div className="landmark-logo-badge">
+                        <img src={anchor.logo} alt={`${anchor.name} logo`} loading="lazy" />
+                      </div>
+                    )}
                   </div>
-                  <h3>{anchor.name}</h3>
-                  <p>{anchor.description}</p>
-                  <span className="landmark-category">
-                    {categoryMap[anchor.category]}
-                  </span>
+                  <div className="landmark-card-body">
+                    <div className="landmark-card-top">
+                      <span className="landmark-tag">{anchor.tag}</span>
+                      <span className="landmark-floor">{anchor.floor}</span>
+                    </div>
+                    <h3>{anchor.name}</h3>
+                    <p>{anchor.description}</p>
+                    <span className="landmark-category">
+                      {categoryMap[anchor.category]}
+                    </span>
+                  </div>
                 </article>
               </div>
             ))}

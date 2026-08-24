@@ -13,6 +13,9 @@ export const floors = [
     ],
     anchors: ['LuLu Daily / Hypermarket', 'Yousta', 'Tokyo Talkies / Highlander'],
     sceneFloor: 'f1',
+    mapSrc:
+      'https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FLower%20Ground%20Floor3d-03.svg?alt=media&token=73f00863-b661-42f8-9cb7-2b2462750e0a',
+    mapplicLayer: 'layer2',
   },
   {
     id: 'ugf',
@@ -28,6 +31,9 @@ export const floors = [
     ],
     anchors: ['LuLu Eatry', 'Vibe Square', 'Main Concierge'],
     sceneFloor: 'f1',
+    mapSrc:
+      'https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FM5%20Mall%20map%20-%20Ground%20Floor.svg?alt=media&token=fe852d8c-7466-4699-b857-787b1c050363',
+    mapplicLayer: 'layer1',
   },
   {
     id: '1f',
@@ -43,6 +49,9 @@ export const floors = [
     ],
     anchors: ['Reliance Digital', 'Lenskart', 'Decathlon'],
     sceneFloor: 'f1',
+    mapSrc:
+      'https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FFirst%20Floor.svg?alt=media&token=e6edd65b-7abc-4140-96eb-90a22dcf1bd1',
+    mapplicLayer: 'layer6',
   },
   {
     id: '2f',
@@ -58,6 +67,9 @@ export const floors = [
     ],
     anchors: ['Lifestyle', 'Max', 'Tanishq', 'Kalyan Jewellers'],
     sceneFloor: 'f2',
+    mapSrc:
+      'https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FSecond%20Floor.svg?alt=media&token=4a3a47a8-5f9f-4c70-85f4-fefe769de206',
+    mapplicLayer: 'layer3',
   },
   {
     id: '3f',
@@ -73,6 +85,9 @@ export const floors = [
     ],
     anchors: ['Fun City', 'Jus Jumpin', 'Hamleys'],
     sceneFloor: 'f3',
+    mapSrc:
+      'https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FThird%20Floor.svg?alt=media&token=3c618845-3c34-484e-be44-04b4a36a610d',
+    mapplicLayer: 'layer4',
   },
   {
     id: '4f',
@@ -88,6 +103,9 @@ export const floors = [
     ],
     anchors: ['PVR INOX', 'PVR Dine-In', 'IMAX'],
     sceneFloor: 'f4',
+    mapSrc:
+      'https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/6nzKSvJbd7QdRDCNm9y8tpQqKrX2%2FFourth%20Floor.svg?alt=media&token=01f3c38b-9238-4bc0-8d4f-20fb7b399f18',
+    mapplicLayer: 'layer5',
   },
 ];
 
