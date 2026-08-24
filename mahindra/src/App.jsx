@@ -12,6 +12,7 @@ import AmenitiesSection from './components/AmenitiesSection';
 import Testimonial from './components/Testimonial';
 import LegacyBlock from './components/LegacyBlock';
 import VisitSection from './components/VisitSection';
+import GallerySection, { VibeSquareSection, InstagramSection } from './components/GallerySection';
 import './App.css';
 
 export default function App() {
@@ -27,6 +28,9 @@ export default function App() {
         <StoreDirectory />
         <FloorDirectory />
         <EventsSection />
+        <VibeSquareSection />
+        <GallerySection />
+        <InstagramSection />
         <PillarsSection />
         <AmenitiesSection />
         <Testimonial />
