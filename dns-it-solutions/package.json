@@ -1,0 +1,17 @@
+{
+  "name": "dns-it-solutions",
+  "version": "1.0.0",
+  "description": "DNS IT Solutions landing page configured for Cloudflare Workers & Pages",
+  "main": "worker.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node --check worker.js"
+  },
+  "keywords": [
+    "cloudflare-worker",
+    "cloudflare-pages",
+    "static-site"
+  ],
+  "author": "DNS IT Solutions",
+  "license": "UNLICENSED"
+}
